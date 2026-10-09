@@ -1,0 +1,36 @@
+{
+  "id": "com.yourname.nuvioproviders",
+  "name": "My Custom Nuvio Providers",
+  "description": "A personal collection of custom scrapers built for Nuvio.",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "icon": "https://raw.githubusercontent.com/yoruix/nuvio-providers/main/Assets/Logo.png",
+  "providers": [
+    {
+      "id": "dexter",
+      "name": "Dexter",
+      "description": "Fast streaming provider utilizing Dexter vaults.",
+      "version": "1.0.0",
+      "author": "Your Name",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "dexter.js",
+      "enabled": true,
+      "logo": "https://dexter.pw/favicon.ico",
+      "contentLanguage": ["en"],
+      "formats": ["m3u8"],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "uniquename",
+      "name": "My Other Scraper",
+      "description": "Another custom website scraper.",
+      "version": "1.0.0",
+      "author": "Your Name",
+      "supportedTypes": ["movie"],
+      "filename": "uniquename.js",
+      "enabled": true,
+      "contentLanguage": ["en"],
+      "formats": ["mp4"]
+    }
+  ]
+}
